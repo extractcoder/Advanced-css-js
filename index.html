@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Practice Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+  
+
+    <section class="quiz-section">
+      <h2>🧠 Quiz Time!</h2>
+      <div id="quiz-container"></div>
+      <button onclick="submitQuiz()">Submit Answers</button>
+      <p id="quiz-result" class="fade-in"></p>
+    </section>
+
+    <section class="api-section">
+      <h2>🌦 Weather Info</h2>
+      <img src="weatherr.gif" alt="Weather Animation" class="weather-gif" />
+      <button onclick="getWeather()">Get Weather</button>
+      <p id="weather-output">Click to load weather.</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
